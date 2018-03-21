@@ -1,0 +1,19 @@
+/* Empty. Add your own CSS if you like */
+#zoneAuto {
+  position: relative;
+  border:3px solid #444;
+  height:50vh;
+  width:100%;
+}
+#rebondAuto {
+  background: #387ef5;
+  width:3em;
+  height:3em;
+  border-radius:20px
+}
+.bg{
+  position: absolute;
+  background-color: #444;
+  width: 100%;
+  height:100%;
+}

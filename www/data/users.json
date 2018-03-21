@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "username": "Admin",
+      "mdp": "Admin"
+    },
+    {
+      "username": "Jessy",
+      "mdp": "Admin"
+    },
+    {
+      "username": "Alice",
+      "mdp": "Admin"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+<ion-view view-title="{{ title }}">
+  <ion-content style="background-color: #444;" class="background">
+    <div class="padding background">
+      <div class="row">
+        <div ng-bind-html="username"></div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <button ng-click="clickPositive()" class="button button-block button-positive">
+            Positive
+          </button>
+        </div>
+        <div class="col">
+          <button ng-click="clickCalm()" class="button button-block button-calm">
+            Calm
+          </button>
+        </div>
+        <div class="col">
+          <button ng-click="clickDark()" class="button button-block button-dark">
+            Dark
+          </button>
+        </div>
+      </div>
+        <div ng-bind-html="html"></div>
+      <div class="row">
+        <div class="list card">
+
+          <div class="item item-avatar">
+            <img src="img/ionic.png">
+            <h2>Ionic card</h2>
+            <p>~ Test ~</p>
+          </div>
+
+          <div class="item item-body">
+            <img class="full-image" src="img/ionic2.png">
+            <p>
+              Petit test des fonctionalités de Ionic Cordova avec AngularJS.
+            </p>
+            <p>
+              <a href="#/app/demo" class="subdued">1 Like</a>
+              <a href="#/app/demo" class="subdued">5 Comments</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <center><h2>Liste des développeurs</h2></center>
+      <div class="list">
+        <a class="item item-avatar" href="#/app/details/Shiina">
+          <img src="img/Shiina.png">
+          <h2>Shiina</h2>
+          <p>Back-end</p>
+        </a>
+        <a class="item item-avatar" href="#/app/details/Rintsu">
+          <img src="img/Rintsu.png">
+          <h2>Rintsu</h2>
+          <p>Front-end</p>
+        </a>
+        <a class="item item-avatar" href="#/app/details/Chips">
+          <img src="img/Chips.png">
+          <h2>Chips</h2>
+          <p>Le reste ~</p>
+        </a>
+      </div>
+
+    </div>
+  </ion-content>
+</ion-view>
