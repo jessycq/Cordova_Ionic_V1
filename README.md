@@ -1,10 +1,6 @@
 # Cordova_Ionic_V1
 Projet d'application mobile sous Ionic V1 pour tester les plugins Cordova
 
-![MYAPP](https://i.gyazo.com/c37a1ab3a07c70a7fa5a6936cdca2843.png)
-![MENU](https://i.gyazo.com/8f5b536e6ff0521095d023249b850605.png)
-
-
 ## Liste des plugins utilisés
 
 * cordova-plugin-flashlight 3.2.0 "Flashlight"
@@ -24,3 +20,8 @@ Dans le menu on peut retrouver:
 * Jeu AngularJS
 * Utilisation du plugin Flashlight
 * Utilisation du plugin Vibration
+
+## Images
+
+![MYAPP](https://i.gyazo.com/c37a1ab3a07c70a7fa5a6936cdca2843.png)
+![MENU](https://i.gyazo.com/8f5b536e6ff0521095d023249b850605.png)
